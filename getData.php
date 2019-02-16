@@ -1,5 +1,7 @@
 <?php
 
+set_time_limit(0);
+
 // 這個是正式拿資料的檔案
 
 if(isset($_POST['genDocSubmit'])){
