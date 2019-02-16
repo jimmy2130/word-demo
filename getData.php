@@ -1,7 +1,5 @@
 <?php
 
-set_time_limit(0);
-
 // 這個是正式拿資料的檔案
 
 if(isset($_POST['genDocSubmit'])){
@@ -70,7 +68,7 @@ else
 {
   $json_data = json_decode($response,true);
   $print_file = true;
-  for($i = 0; $i < count($json_data); $i++)
+  for($i = 0; $i < 2; $i++)
   {
     array_push($id, $json_data[$i]['id']);
     array_push($address, $json_data[$i]['address']);
