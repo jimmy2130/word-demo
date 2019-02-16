@@ -68,7 +68,7 @@ else
 {
   $json_data = json_decode($response,true);
   $print_file = true;
-  for($i = 0; $i < 1; $i++)
+  for($i = 0; $i < count($json_data); $i++)
   {
     array_push($id, $json_data[$i]['id']);
     array_push($address, $json_data[$i]['address']);
