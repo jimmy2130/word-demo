@@ -10,7 +10,7 @@ if(isset($_POST['genDocSubmit'])){
 
 if(strtotime($startDate) >= strtotime($endDate))
 {
-  header("Location: createFile.php");
+  header("Location: index.php");
   exit();
 }
 
