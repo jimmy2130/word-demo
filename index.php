@@ -10,7 +10,7 @@
 	<div class="bg"></div>
 	<div class="navigation_bar"></div>
 	<div class="container">
-		<form class="form" id="docxform" method="post" action="createFile.php">
+		<form class="form" id="docxform" method="post" action="createFile2.php">
 			<label for="">選擇資料的起始日期</label>
 			<input name="startDate" type="date" required>
 			<label for="">選擇資料的結束日期</label>
